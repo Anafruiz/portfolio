@@ -16,10 +16,10 @@ const Aboutme = () => {
           que siempre me gustó, en especial el desarrollo front-end.
         </p>
         <p className="aboutme__text">
-          Esto me llevó a realizar un bootcamp en Adalab donde he adquirido
+          Esto me llevó a realizar un bootcamp en Adalab, donde he adquirido
           conocimientos de programación, el manejo de las herramientas
-          necesarias para ello y sobre todo si algo he aprendido en estos meses
-          es a trabajar en equipo y saber que el éxito depende de ello.
+          necesarias para ello y, sobre todo, si algo he aprendido en estos
+          meses es a trabajar en equipo y saber que el éxito depende de ello.
         </p>
 
         <p className="aboutme__text">
