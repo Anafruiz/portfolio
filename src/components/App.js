@@ -1,7 +1,7 @@
 import "../stylesheet/App.scss";
 import Header from "./Header";
 import Footer from "./Footer";
-import dataProjects from "../services/dataProjects.json";
+import dataProjects from "../services/dataProjects.js";
 import Aboutme from "./Main/Aboutme";
 import Projects from "./Main/Projects";
 import Contact from "./Main/Contact";
