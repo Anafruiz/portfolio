@@ -1,5 +1,4 @@
 import "../../stylesheet/Contact.scss";
-
 const Contact = (props) => {
   return (
     <div className="contact" id="contact">

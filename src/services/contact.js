@@ -1,8 +1,10 @@
+import linkedin from "../images/icon-linkedin.svg";
+
 const contact = [
   {
     id: 1,
     name: "http://www.linkedin.com/in/anafruiz20",
-    img: "../images/icon-linkedin.svg",
+    img: { linkedin },
   },
   {
     id: 2,
