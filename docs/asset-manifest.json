@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.2abc2ddc.chunk.css",
-    "main.js": "./static/js/main.93b19afe.chunk.js",
-    "main.js.map": "./static/js/main.93b19afe.chunk.js.map",
+    "main.js": "./static/js/main.4b2435ab.chunk.js",
+    "main.js.map": "./static/js/main.4b2435ab.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.03a77393.js",
     "runtime-main.js.map": "./static/js/runtime-main.03a77393.js.map",
     "static/js/2.f0f4bbd6.chunk.js": "./static/js/2.f0f4bbd6.chunk.js",
@@ -11,13 +11,16 @@
     "static/css/main.2abc2ddc.chunk.css.map": "./static/css/main.2abc2ddc.chunk.css.map",
     "static/js/2.f0f4bbd6.chunk.js.LICENSE.txt": "./static/js/2.f0f4bbd6.chunk.js.LICENSE.txt",
     "static/media/AnaFernandez.2705e047.pdf": "./static/media/AnaFernandez.2705e047.pdf",
+    "static/media/email1.e6271964.svg": "./static/media/email1.e6271964.svg",
     "static/media/header.6da267cb.png": "./static/media/header.6da267cb.png",
+    "static/media/icon-github.a22825f4.svg": "./static/media/icon-github.a22825f4.svg",
+    "static/media/icon-linkedin.c1dc41b4.svg": "./static/media/icon-linkedin.c1dc41b4.svg",
     "static/media/Aboutme.scss": "./static/media/profile.e378ca50.png"
   },
   "entrypoints": [
     "static/js/runtime-main.03a77393.js",
     "static/js/2.f0f4bbd6.chunk.js",
     "static/css/main.2abc2ddc.chunk.css",
-    "static/js/main.93b19afe.chunk.js"
+    "static/js/main.4b2435ab.chunk.js"
   ]
 }

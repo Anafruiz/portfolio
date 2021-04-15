@@ -1,20 +1,22 @@
 import linkedin from "../images/icon-linkedin.svg";
+import github from "../images/icon-github.svg";
+import email from "../images/email1.svg";
 
 const contact = [
   {
     id: 1,
     name: "http://www.linkedin.com/in/anafruiz20",
-    img: { linkedin },
+    img: linkedin,
   },
   {
     id: 2,
     name: "https://github.com/anafruiz",
-    img: "../images/icon-github.svg",
+    img: github,
   },
   {
     id: 3,
     name: "mailto:anafruiz20@gmail.com",
-    img: "../images/email1.svg",
+    img: email,
   },
 ];
 export default contact;
