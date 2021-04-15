@@ -1,7 +1,7 @@
 import "../../stylesheet/Projects.scss";
 const Projects = (props) => {
   return (
-    <section className="projects" id="#projects">
+    <section className="projects" id="projects">
       <div className="projects__container">
         <h2 className="projects__container--title">Proyectos</h2>
         <ul className="projects__container--list">
