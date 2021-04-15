@@ -1,0 +1,88 @@
+@import "../stylesheet/core/variables.scss";
+
+.aboutme {
+  margin: 50px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  text-align: center;
+  border-top: $color-pink 5px double;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+    margin: 70px;
+    margin-bottom: 0px;
+  }
+  @media all and (min-width: 1024px) {
+    font-size: 26px;
+    margin: 100px;
+    margin-bottom: 0px;
+  }
+
+  &__text {
+    margin-top: 20px;
+    text-align: left;
+    line-height: 1.5;
+  }
+  &__title {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 10px;
+    color: $color-green;
+    font-size: 22px;
+    text-align: center;
+    @media all and (min-width: 768px) {
+      font-size: 28px;
+    }
+    @media all and (min-width: 1024px) {
+      font-size: 34px;
+    }
+  }
+  &__pic {
+    width: 90px;
+    height: 90px;
+    float: right;
+    shape-outside: url(../images/profile.png);
+    shape-image-threshold: 0.9;
+    float: right;
+    &:hover {
+      filter: grayscale(80%);
+    }
+    @media all and (min-width: 768px) {
+      width: 200px;
+      height: 200px;
+    }
+    // @media all and (min-width: 1024px) {
+    //   width: 300px;
+    //   height: 300px;
+    // }
+  }
+  &__button {
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 10px;
+    border: 4px $color-green solid;
+    @media all and (min-width: 768px) {
+      font-size: 22px;
+    }
+    @media all and (min-width: 1024px) {
+      font-size: 24px;
+    }
+    &--text {
+      text-decoration: none;
+      padding: 5px;
+      color: black;
+    }
+  }
+}
+
+.third {
+  color: #fff;
+  box-shadow: 0 0 40px 40px $color-purple inset, 0 0 0 0 $color-purple;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 $color-purple inset, 0 0 10px 4px $color-purple;
+}

@@ -1,0 +1,50 @@
+@import "../stylesheet/core/variables.scss";
+
+.header {
+  &__pic {
+    z-index: -999;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+  }
+  &__nav {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 25px;
+
+    @media all and (min-width: 768px) {
+      top: 0px;
+      left: 50px;
+    }
+    @media all and (min-width: 1024px) {
+      top: 20px;
+      left: 120px;
+    }
+  }
+  &__list {
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    color: $color-green;
+
+    &:hover {
+      text-shadow: -1px 0 $color-pink, 1px 0 $color-pink, 0 1px $color-pink,
+        0 -1px $color-pink;
+      color: #fff;
+    }
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+      padding: 10px;
+    }
+    @media all and (min-width: 1024px) {
+      font-size: 30px;
+      padding: 10px;
+    }
+  }
+}

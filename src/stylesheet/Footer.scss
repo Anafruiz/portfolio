@@ -1,0 +1,16 @@
+@import "../stylesheet/core/variables.scss";
+
+.footer {
+  color: $color-green;
+  display: flex;
+  justify-content: space-around;
+  &__small {
+    opacity: 0.8;
+    font-size: 18px;
+    margin: 30px;
+    margin-bottom: 20px;
+    @media all and (min-width: 1024px) {
+      font-size: 24px;
+    }
+  }
+}

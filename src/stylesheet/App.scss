@@ -1,0 +1,17 @@
+@import "../stylesheet/core/variables.scss";
+@import "../stylesheet/core/reset.scss";
+.body {
+  width: 100%;
+  height: 100vh;
+  // background-image: url(../images/cabecera.png);
+  // background-size: contain;
+  background-color: $color-grey;
+  // background-image: radial-gradient(
+  //   circle,
+  //   #eeb6b4,
+  //   #b0b0c8,
+  //   #e6e6e6,
+  //   #92ada8,
+  //   #ddd5dc
+  // );
+}

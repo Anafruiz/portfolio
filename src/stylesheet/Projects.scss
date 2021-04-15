@@ -1,0 +1,93 @@
+@import "../stylesheet/core/variables.scss";
+
+.projects__container {
+  &--title {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    color: $color-green;
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: center;
+    @media all and (min-width: 768px) {
+      font-size: 28px;
+    }
+    @media all and (min-width: 1024px) {
+      font-size: 34px;
+    }
+  }
+  &--list {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &--item {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    color: $color-green;
+    padding: 5px;
+    margin: 10px;
+  }
+  &--buttons {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  &--button {
+    margin: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 4px $color-green solid;
+    padding: 5px;
+
+    @media all and (min-width: 768px) {
+      font-size: 18px;
+    }
+    @media all and (min-width: 1024px) {
+      font-size: 22px;
+    }
+  }
+  &--href {
+    color: black;
+    text-decoration: none;
+  }
+  &--name {
+    color: $color-green;
+    font-size: 16px;
+    margin: 10px;
+    @media all and (min-width: 768px) {
+      font-size: 18px;
+    }
+    @media all and (min-width: 1024px) {
+      font-size: 22px;
+    }
+  }
+
+  &--logo {
+    border: 3px solid $color-green;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    @media all and (min-width: 768px) {
+      height: 180px;
+      width: 250px;
+    }
+    @media all and (min-width: 1024px) {
+      height: 230px;
+      width: 360px;
+    }
+  }
+}
+.third {
+  color: #fff;
+  box-shadow: 0 0 40px 40px $color-purple inset, 0 0 0 0 $color-purple;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 $color-purple inset, 0 0 10px 4px $color-purple;
+}

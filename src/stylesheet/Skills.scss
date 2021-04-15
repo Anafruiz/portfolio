@@ -1,0 +1,52 @@
+@import "../stylesheet/core/variables.scss";
+@import "../stylesheet/core/mixin.scss";
+.skills__container {
+  margin: 50px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  @media all and (min-width: 768px) {
+    margin: 70px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  @media all and (min-width: 1024px) {
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  &--title {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    color: $color-green;
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: center;
+    @media all and (min-width: 768px) {
+      font-size: 28px;
+    }
+    @media all and (min-width: 1024px) {
+      font-size: 34px;
+    }
+  }
+  &--list {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &--item {
+    border-radius: 10px;
+    margin: 5px;
+    border: 4px double $color-purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    color: $color-green;
+    padding: 5px;
+  }
+  &--logo {
+    height: 100px;
+    width: 130px;
+  }
+}
