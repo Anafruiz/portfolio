@@ -1,6 +1,7 @@
 import "../../stylesheet/Aboutme.scss";
 import pic from "../../images/profile.png";
 import pdf from "../../source/AnaFernandez.pdf";
+
 const Aboutme = () => {
   const AnaFernandez_pdf = pdf;
 

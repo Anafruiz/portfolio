@@ -5,6 +5,7 @@ import project3 from "../images/project3.png";
 
 import project4 from "../images/project4.png";
 import project5 from "../images/project5.png";
+import project6 from "../images/project6.png";
 
 const dataProjects = [
   {
@@ -30,13 +31,20 @@ const dataProjects = [
   },
   {
     id: 4,
+    url: "https://anafruiz.github.io/Local-Storage-Tapas/",
+    img: project6,
+    name: "JavaScript",
+    github: "https://github.com/Anafruiz/Local-Storage-Tapas",
+  },
+  {
+    id: 5,
     url: "https://anafruiz.github.io/Guess-a-number/",
     img: project4,
     name: "JavaScript",
     github: "https://github.com/Anafruiz/Guess-a-number",
   },
   {
-    id: 5,
+    id: 6,
     url: "https://anafruiz.github.io/Pokemon-React/",
     img: project5,
     name: "React",
