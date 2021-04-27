@@ -24,7 +24,7 @@ const dataProjects = [
   },
   {
     id: 3,
-    url: "https://awesome-profile-cards-magician.herokuapp.com/#/",
+    url: "https://anafruiz-react-magicians.herokuapp.com/#/",
     img: project3,
     name: "React & Node JS",
     github: "https://github.com/Anafruiz/project-promo-l-module-3-team-1",
