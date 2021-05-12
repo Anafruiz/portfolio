@@ -30,7 +30,7 @@ const Aboutme = () => {
         <button className="aboutme__button third">
           <a
             href={pdf}
-            download={AnaFernandez_pdf}
+            // download={AnaFernandez_pdf}
             className="aboutme__button--text"
           >
             Ver CV
