@@ -69,7 +69,11 @@
     @media all and (min-width: 1024px) {
       font-size: 24px;
     }
+
     &--text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-decoration: none;
       padding: 5px;
       color: black;
@@ -85,4 +89,7 @@
 }
 .third:hover {
   box-shadow: 0 0 10px 0 $color-purple inset, 0 0 10px 4px $color-purple;
+}
+.aboutme__button--flag {
+  padding: 5px;
 }

@@ -1,10 +1,9 @@
 import "../../stylesheet/Aboutme.scss";
 import pic from "../../images/profile.png";
-import pdf from "../../source/AnaFernandez.pdf";
+import pdf1 from "../../source/AnaFernandezEnglish.pdf";
+import pdf2 from "../../source/AnaFernandezSpanish.pdf";
 
 const Aboutme = () => {
-  const AnaFernandez_pdf = pdf;
-
   return (
     <>
       <div className="aboutme" id="aboutme">
@@ -29,11 +28,28 @@ const Aboutme = () => {
         </p>
         <button className="aboutme__button third">
           <a
-            href={pdf}
+            href={pdf2}
             // download={AnaFernandez_pdf}
             className="aboutme__button--text"
           >
-            Ver CV
+            CV Español
+            <img
+              className="aboutme__button--flag"
+              src="https://img.icons8.com/doodle/48/000000/spain-2.png"
+            />
+          </a>
+        </button>
+        <button className="aboutme__button third">
+          <a
+            href={pdf1}
+            // download={AnaFernandez_pdf}
+            className="aboutme__button--text"
+          >
+            English CV{" "}
+            <img
+              className="aboutme__button--flag"
+              src="https://img.icons8.com/doodle/48/000000/great-britain.png"
+            />
           </a>
         </button>
       </div>
