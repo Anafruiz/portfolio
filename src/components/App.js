@@ -12,19 +12,12 @@ import contact from "../services/contact";
 function App() {
   return (
     <>
-      {/* <Switch>
-        <Route exact path="/"> */}
       <Header />
       <Aboutme />
       <HardSkills hard={hard} />
       <Projects dataProjects={dataProjects} />
       <Contact contact={contact} />
       <Footer />
-      {/* </Route> */}
-      {/* <Route path="/aboutme" component={Aboutme} />
-        <Route path="/Projects" component={Projects} />
-        <Route path="/contact" component={Contact} /> */}
-      {/* </Switch> */}
     </>
   );
 }
