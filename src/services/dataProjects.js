@@ -1,12 +1,11 @@
 import project1 from "../images/project1.jpg";
 import project2 from "../images/project2.jpg";
-
 import project3 from "../images/project3.jpg";
-
 import project4 from "../images/project4.jpg";
 import project5 from "../images/project5.jpg";
 import project6 from "../images/project6.jpg";
 import project7 from "../images/project7.jpg";
+import project8 from "../images/project8.png";
 
 const dataProjects = [
   {
@@ -57,6 +56,13 @@ const dataProjects = [
     img: project5,
     name: "React",
     github: "https://github.com/Anafruiz/Pokemon-React",
+  },
+  {
+    id: 8,
+    url: "https://anafruiz.github.io/gmail-react/#/",
+    img: project8,
+    name: "React",
+    github: "https://github.com/Anafruiz/gmail-react",
   },
 ];
 export default dataProjects;
