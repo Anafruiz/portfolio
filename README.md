@@ -1,5 +1,5 @@
 # Portfolio AnaFruiz
-![Preview](https://raw.githubusercontent.com/anafruiz/portfolio/master/src/images/cabecera.png)
+![Preview](https://raw.githubusercontent.com/anafruiz/portfolio/master/src/images/cabecera3.PNG)
 Thi is my personal website. I'm Ana.Teacher by training but dedicated to tourism
 professionally. I decided to make a change and enter
 the technological world that I always liked, especially
