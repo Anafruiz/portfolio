@@ -7,7 +7,7 @@ front-end development. I consider myself a dynamic,
 hard-working and very enthusiastic person.
 
 ## Project
-This project is created with `starter kit` de [Adalab](https://adalab.es/) and it's being uploaded with my new projects.
+This project is created with `create-react-app`and it's being uploaded with my new projects.
 
 ## Contact
 I hope you like it because it's made with great interest and I really appreciate any kind of feedback.  
