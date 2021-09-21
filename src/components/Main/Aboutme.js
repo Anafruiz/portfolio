@@ -26,6 +26,18 @@ const Aboutme = () => {
           Me considero además una persona dinámica, trabajadora y muy
           entusiasta.
         </p>
+        <p className="aboutme__text">
+          Actualmente trabajo en{" "}
+          <em>
+            <strong>Accenture</strong>{" "}
+          </em>
+          como{" "}
+          <em>
+            <strong>Business & Integration Arch Associate</strong>
+          </em>{" "}
+          en el departamento de low-code, desarrollando con Pega un proyecto de
+          marketing en una importante compañia de telecomunicaciones.
+        </p>
         <button className="aboutme__button third">
           <a
             href={pdf2}
