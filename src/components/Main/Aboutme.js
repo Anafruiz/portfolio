@@ -1,6 +1,6 @@
 import "../../stylesheet/Aboutme.scss";
 import pic from "../../images/profile.png";
-import pdf1 from "../../source/AnaFernandezEnglish.pdf";
+import pdf1 from "../../source/AnaFernándezRuizEnglishactualizado.pdf";
 import pdf2 from "../../source/AnaFernandezSpanishactualizado.pdf";
 
 const Aboutme = () => {

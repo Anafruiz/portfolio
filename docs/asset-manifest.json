@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.016809be.chunk.css",
-    "main.js": "./static/js/main.48d0ba9e.chunk.js",
-    "main.js.map": "./static/js/main.48d0ba9e.chunk.js.map",
+    "main.js": "./static/js/main.fd9005d0.chunk.js",
+    "main.js.map": "./static/js/main.fd9005d0.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.03a77393.js",
     "runtime-main.js.map": "./static/js/runtime-main.03a77393.js.map",
     "static/js/2.5cbd0370.chunk.js": "./static/js/2.5cbd0370.chunk.js",
@@ -10,8 +10,8 @@
     "index.html": "./index.html",
     "static/css/main.016809be.chunk.css.map": "./static/css/main.016809be.chunk.css.map",
     "static/js/2.5cbd0370.chunk.js.LICENSE.txt": "./static/js/2.5cbd0370.chunk.js.LICENSE.txt",
-    "static/media/AnaFernandezEnglish.d978bafb.pdf": "./static/media/AnaFernandezEnglish.d978bafb.pdf",
     "static/media/AnaFernandezSpanishactualizado.40d47045.pdf": "./static/media/AnaFernandezSpanishactualizado.40d47045.pdf",
+    "static/media/AnaFernándezRuizEnglishactualizado.1d3b6e06.pdf": "./static/media/AnaFernándezRuizEnglishactualizado.1d3b6e06.pdf",
     "static/media/css.3ec32022.svg": "./static/media/css.3ec32022.svg",
     "static/media/email1.e6271964.svg": "./static/media/email1.e6271964.svg",
     "static/media/git.43d387b7.svg": "./static/media/git.43d387b7.svg",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.03a77393.js",
     "static/js/2.5cbd0370.chunk.js",
     "static/css/main.016809be.chunk.css",
-    "static/js/main.48d0ba9e.chunk.js"
+    "static/js/main.fd9005d0.chunk.js"
   ]
 }
